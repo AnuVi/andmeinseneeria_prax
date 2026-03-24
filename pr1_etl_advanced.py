@@ -1,7 +1,7 @@
 """
 ETL skripti mall: loeb REST API-st andmeid ja laeb need PostgreSQL andmebaasi.
 
-Ülesanne: täida extract(), transform() ja load() funktsioonid.
+Ülesanne: täida extract(), transform() ja load() funktsioonid. 
 """
 
 import requests
