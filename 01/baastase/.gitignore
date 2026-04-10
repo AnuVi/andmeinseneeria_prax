@@ -1,0 +1,14 @@
+# Kohalikud saladused ja keskkond
+.env
+.env.*
+!.env.example
+
+# Ajutised / redaktori jäänused
+*.tmp
+*.log
+Untitled
+Untitled.*
+
+# Isiklikud märkmed / spikrid (ei lähe reposse)
+algajad1.md
+algajad1_spikker.md

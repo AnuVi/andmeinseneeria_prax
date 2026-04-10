@@ -1,0 +1,2 @@
+-- Laeb hosti CSV-faili andmed tabelisse orders psql-i \COPY käsuga.
+COPY orders (order_id,order_date, email, country, quantity, unit_price, status) FROM '/data/orders.csv' WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');

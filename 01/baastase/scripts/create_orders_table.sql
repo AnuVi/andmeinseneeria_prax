@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS orders (
+id BIGSERIAL PRIMARY KEY,
+order_id TEXT NOT NULL,
+order_date DATE NOT NULL,
+email TEXT NOT NULL,
+country TEXT NOT NULL,
+quantity INTEGER NOT NULL,
+unit_price DECIMAL(10, 2) NOT NULL,
+status TEXT NOT NULL
+);
