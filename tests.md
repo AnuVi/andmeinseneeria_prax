@@ -16,11 +16,11 @@ The pipeline runs on **real operational data**. **Project details, source system
 
 ---
 
-**Prerequisite:** services and the data pipeline workflow are running — see [seadistamine.md](seadistamine.md); tests run automatically.
+**Prerequisite:** services and the data pipeline workflow are running; tests run automatically.
 
 The project runs **75** `dbt test` checks in total; this guide covers **33 data quality tests**.
 
-The test selection is largely based on controls described in legacy pre-dbt QA — see [scripts/legacy/qa/](../scripts/legacy/qa/) ([scripts/legacy/README.md](../scripts/legacy/README.md)).
+The test selection is largely based on controls described in legacy pre-dbt QA.
 
 ## Table of contents
 
